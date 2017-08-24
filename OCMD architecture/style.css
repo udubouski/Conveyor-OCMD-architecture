@@ -1,0 +1,12 @@
+/*
+@author: Весь код данной лабораторной работы полностью разработан студентом группы 521701 Дубовским В.В.
+*/
+#title{
+		text-align: center;
+}
+
+#table{
+	   overflow: auto;
+	   border: solid black;
+	   text-align: center;
+}

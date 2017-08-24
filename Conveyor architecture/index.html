@@ -1,0 +1,58 @@
+<!--
+@author: Весь код данной лабораторной работы полностью разработан студентом группы 521701 Дубовским В.В.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>МРЗвИС - Лабораторная работа №2</title>
+    <link rel='stylesheet' type='text/css' href='style.css'>
+</head>
+<body>
+    <div id="title">
+        <h1>Лабораторная работа №1. Вариант 17</h1>
+        <p><h3>Алгоритм вычисления целочисленного частного пары 8-разрядных чисел делением с восстановлением частичного остатка</h3></p>
+    </div>
+
+    <script src = "script.js"></script>   
+
+    <p>
+    Элемент первого вектора:
+    <input type="text" id = "first" name = "first">
+    </p>
+
+    <p>
+    Элемент второго вектора:
+    <input type="text" id = "second" name = "second">
+    </p>
+
+    <input type="button" value = "Добавить" onclick="addInDoc()"></inputbutton><br>
+
+    <p>
+        <b>Первый вектор:</b>
+        (<span id="firstVector"></span>)
+    </p>     
+
+    <p>
+        <b>Второй вектор:</b>
+        (<span id="secondVector"></span>)
+    </p>
+
+    <p>
+        Время выполенения такта:
+        <input type="text" id = "tact" name = "tact">
+        <input type="button" value = "Запуск" onclick="main()"></inputbutton>
+    </p>
+
+    <p>
+        <b>Результирующий вектор:</b>
+        (<span id="resultVector"></span>)
+    </p> 
+
+    <p>
+        <b>Результирующая таблица:</b>
+    <table id="table" border="3"></table>
+    </p> 
+
+</body>
+</html>
